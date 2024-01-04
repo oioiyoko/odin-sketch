@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'Repro 89';
+    font-style: normal;
+    src: local('Repro 89'), url('/Resources/Repro89-Regular.woff') format('woff');
+}
+
+body {
+    background-color: black;
+}
+h1 {
+    text-align: center;
+    font-family: 'Repro 89';
+    font-size: 50px;
+    color: rgb(255, 131, 235);
+    margin-bottom: 20px;
+}
+
+.toy{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    text-align: center;
+}
+
+p {
+    margin: 8px;
+    margin-bottom: 20px;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 400px;
+    height: 10px;
+    align-items: center;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 10px;
+    height: 20px;
+    background: rgb(255, 100, 220);
+    cursor: pointer;
+}
+
+.screen {
+    margin: auto;
+    display: flex;
+    width: 700px;
+    height: 700px;
+    border-style: solid;
+    border-color: rgb(255, 131, 235);
+    border-width: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: content;
+}
+
+.smallBox {
+    background-color: white;
+    outline: .5px solid rgb(255, 131, 235);;
+}
